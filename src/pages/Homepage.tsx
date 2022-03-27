@@ -10,35 +10,41 @@ function HomepageContent() {
   return (
     <ThemeProvider theme={mdTheme}><Grid container spacing={3}>
         {/* Chart */}
-        <Grid item xs={12} md={8} lg={9}>
+        <Grid item xs={12} md={12} lg={12}>
             <Paper
                 sx={{
                     p: 2,
                     display: 'flex',
                     flexDirection: 'column',
-                    height: 240,
                 }}
             >
-                <h3>Chart</h3>
+                <h3 className='header'>Willkommen!</h3>
+                <p>Hier sind viele viele Aufgaben :)</p>
+                <p>Viel Spaß beim Lernen!</p>
             </Paper>
         </Grid>
         {/* Recent Deposits */}
-        <Grid item xs={12} md={4} lg={3}>
+        <Grid item xs={12} md={6} lg={6}>
             <Paper
                 sx={{
                     p: 2,
                     display: 'flex',
                     flexDirection: 'column',
-                    height: 240,
                 }}
             >
-            <h3>Deposits</h3>
+                <h3>Spotlight: IT/BS/KS</h3>
             </Paper>
         </Grid>
         {/* Recent Orders */}
-        <Grid item xs={12}>
-            <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-            <h3>Orders</h3>
+        <Grid item xs={12} md={6} lg={6}>
+            <Paper
+                sx={{
+                    p: 2,
+                    display: 'flex',
+                    flexDirection: 'column',
+                }}
+            >
+                <h3>Spotlight: Mathe I</h3>
             </Paper>
         </Grid>
         </Grid>
