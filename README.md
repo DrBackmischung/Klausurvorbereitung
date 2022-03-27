@@ -8,4 +8,6 @@ Diese Sammlung an Aufgaben, Tipps und Übungen ist bei weitem nicht groß. Du bi
 
 Dafür einfach eine Fork von diesem Repository erstellen und im "/aufgaben"-Verzeichnis Aufgaben, Übungen, Materialien, u.ä. einfügen. Danach reicht es, eine Pull-Request zu erstellen, und schon hast du zum Projekt beigetragen :)
 
+Aufbau des Aufgabenverzeichnisses: /aufgaben/<Jahr>/<Modul>(/<Thema>)
+
 Die Aufgaben können in jedem Format hochgeladen werden, am besten jedoch als .pdf-Datei. Nötige Dateikonversionen werde ich in der Pull-Request selber machen.
