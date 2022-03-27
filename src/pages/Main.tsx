@@ -22,7 +22,7 @@ import Homepage from './Homepage';
 function Copyright(props: any) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Lizenzvertrag" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+      <a class="cc-link" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Lizenzvertrag" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
       <br></br>
       {'Mathis Neunzig © '}{new Date().getFullYear()}
       {'.'}
